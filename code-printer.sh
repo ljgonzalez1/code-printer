@@ -212,7 +212,6 @@ PROFILES[android]="description=Android project;auto_apply=java;extends=java;incl
 # ============================================
 
 PROFILES[csharp]="description=C#/.NET general project;extends=base;include=*.cs,*.csproj,*.sln,*.config,*.json,*.xml,*.md,*.yml,*.yaml,*.resx,*.settings,*.xaml;exclude=bin,obj,.vs,.idea,packages,Debug,Release,*.user,TestResults"
-PROFILE_ALIASES[c#]="csharp"
 
 PROFILES[aspnet]="description=ASP.NET project;auto_apply=csharp;extends=csharp;include=*.cs,*.cshtml,*.razor,*.css,*.js,*.json,appsettings*.json,wwwroot/**"
 PROFILE_ALIASES[asp.net]="aspnet"
